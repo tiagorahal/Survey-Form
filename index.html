@@ -11,12 +11,12 @@
   </head>
   <body id="body-bg" class="container-fluid">
     <main class="container-fluid">
-      <div class="container d-flex justify-content-center align-items-center flex-column">
+      <div class="container-fluid d-flex justify-content-center align-items-center flex-column">
         <div class="d-flex align-content-center justify-content-center flex-column pt-5 text-center pb-3">
           <h1 class="text-light">Dungeon & Dragons Survey Form</h1>
           <h6 class="text-light">Thank you for taking the time to let us know what you think</h6>
         </div>
-        <form id="form-main" action="#">
+        <form id="form-main" class="py-5" action="#">
           <label class="text-light fw-bold fs-5 mw-100" for="fname">First Name</label><br>
           <input class="w-100 mb-3 border-rounded" type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
           <label class="text-light fw-bold fs-5 mw-100" for="fname">Last Name</label><br>
@@ -24,7 +24,7 @@
           <label class="text-light fw-bold fs-5 mw-100" for="fname">E-mail</label><br>
           <input class="w-100 mb-3 border-rounded" type="email" id="email" name="email" placeholder="Enter your e-mail"><br>
           <label class="text-light fw-bold fs-5 mw-100" for="fname">Age (optional)</label><br>
-          <input class="w-100 mb-3 border-rounded" type="number" id="email" name="email" placeholder="Enter your e-mail"><br>
+          <input class="w-100 mb-3 border-rounded" type="number" id="age" name="email" placeholder="Enter your e-mail"><br>
           <label class="text-light fw-bold fs-5 mw-100" for="class">Choose a Class</label><br>
           <select class="w-100 mb-3 border-rounded" id="class" name="class">
             <option disabled selected value="none">Select favorite class</option>
@@ -37,11 +37,11 @@
             <option value="audi">Fighter</option>           
           </select>
           <label class="text-light fw-bold fs-5 mw-100">Would you recommend D&D to a friend?</label><br>
-          <input class="radio-options" type="radio" id="yes" name="choose" value="yes">
+          <input type="radio" id="yes" name="choose" value="yes">
           <label class="text-light fw-bold fs-5 mw-100" for="male">Definitely</label><br>
-          <input class="radio-options" type="radio" id="no" name="choose" value="no">
+          <input type="radio" id="no" name="choose" value="no">
           <label class="text-light fw-bold fs-5 mw-100" for="female">Maybe</label><br>
-          <input class="radio-options" type="radio" id="maybe" name="choose" value="maybe">
+          <input type="radio" id="maybe" name="choose" value="maybe">
           <label class="text-light fw-bold fs-5 mw-100" for="other">Not sure</label>
         </form>
       </div>

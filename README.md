@@ -2,7 +2,7 @@
 
 ![screenshot](./assets/images/screenshot.png)
 
-> A solo project of a tribute page following the guidelines from the freeCodeCamp [Build a Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form), using the Microverse linters.
+> A solo project of a tribute page following the guidelines from the freeCodeCamp [Build a Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
 
 ## Built With
 
