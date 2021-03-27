@@ -26,15 +26,15 @@
           <label class="text-light fw-bold fs-5 mw-100" for="fname">Age (optional)</label><br>
           <input class="w-100 mb-3 border-rounded" type="number" id="age" name="email" placeholder="Enter your e-mail"><br>
           <label class="text-light fw-bold fs-5 mw-100" for="class">Choose a Class</label><br>
-          <select class="w-100 mb-3 border-rounded" id="class" name="class">
+          <select class="w-100 mb-4 border-rounded" id="class" name="class">
             <option disabled selected value="none">Select favorite class</option>
-            <option value="saab">Barbarian</option>
-            <option value="fiat">Bard</option>
-            <option value="audi">Knight</option>
-            <option value="audi">Cleric</option>
-            <option value="audi">Druid</option>
-            <option value="audi">Warlock</option>
-            <option value="audi">Fighter</option>           
+            <option value="1">Barbarian</option>
+            <option value="2">Bard</option>
+            <option value="3">Knight</option>
+            <option value="4">Cleric</option>
+            <option value="5">Druid</option>
+            <option value="6">Warlock</option>
+            <option value="7">Fighter</option>           
           </select>
           <label class="text-light fw-bold fs-5 mw-100">Would you recommend D&D to a friend?</label><br>
           <input type="radio" id="yes" name="choose" value="yes">
@@ -42,7 +42,18 @@
           <input type="radio" id="no" name="choose" value="no">
           <label class="text-light fw-bold fs-5 mw-100" for="female">Maybe</label><br>
           <input type="radio" id="maybe" name="choose" value="maybe">
-          <label class="text-light fw-bold fs-5 mw-100" for="other">Not sure</label>
+          <label class="text-light fw-bold fs-5 mw-100" for="other">Not sure</label><br><br>
+          <label class="text-light fw-bold fs-5 mw-100" for="class">What is your favorite class on D&D?</label><br>
+          <select class="w-100 mb-3 border-rounded" id="class" name="class">
+            <option disabled selected value="none">Select favorite race</option>
+            <option value="a">Human</option>
+            <option value="b">Elf</option>
+            <option value="c">Dragonborn</option>
+            <option value="d">Aarakocra</option>
+            <option value="e">Dwarf</option>
+            <option value="f">Orc</option>
+            <option value="g">Aasimar</option>           
+          </select>
         </form>
       </div>
     </main>
